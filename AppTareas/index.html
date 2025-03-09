@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP-TAREAS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav class="task-header">
+        <div class="wrapper">
+            <a href="#" class="task__logo">
+                <img src="./assets/check.svg" alt="logo" class="task__logo-img">
+                <span class="task__logo-text">TODO</span>
+            </a>
+        </div>
+    </nav>
+
+    <section class="task__add">
+        <form class="task__form">
+            <input type="text" class="task__input" placeholder="Agrega una tarea">
+            <button class="task__submit" type="submit">Crear
+                <img src="./assets/add.svg" alt="plus" class="task__img-add">
+            </button>
+        </form>
+    </section>
+
+    <main class="task__content wrapper">
+        <article class="task__buttons">
+            <button class="task__btn task__btn--active">Todas las tareas</button>
+            <button class="task__btn" data-done>Tareas hechas</button>
+            <button class="task__btn" data-pending>Tareas Pendientes</button>
+        </article>
+
+        <section class="task__container">
+
+        </section>
+    </main>
+
+    <template class="task__template">
+        <p data-task>
+            <input type="checkbox" class="task__status">
+            <span class="task__name" contenteditable>Tarea#1</span>
+            <button class="task__delete">
+                <img src="./assets/trash.svg" alt="delete">
+            </button>
+        </p>
+    </template>
+
+    <script src="./app.js"></script>
+</body>
+</html>
