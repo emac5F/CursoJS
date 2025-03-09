@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.task-header{
+    background-color: rgb(10, 10, 10);
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+.task__logo{
+    text-decoration: none;
+}
+.task__logo-text{
+    color: #5F9EA0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.task__add{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.task__input{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(43, 42, 42);
+    border: 2px solid #5F9EA0;
+}
+.task__submit{
+    border-radius: 8px;
+    background-color: #5F9EA0;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.task__content{
+    align-self: center;
+    margin-top: 10px;
+}
+.task__btn{
+    border-radius: 5px;
+    background-color: rgb(43, 42, 42);
+    border: 1px solid rgb(101, 101, 108);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.task__btn--active{
+    background-color: #5F9EA0;
+}
