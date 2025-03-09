@@ -35,6 +35,7 @@ body{
     padding: 10px;
     background-color: rgb(43, 42, 42);
     border: 2px solid #5F9EA0;
+    color: white;
 }
 .task__submit{
     border-radius: 8px;
