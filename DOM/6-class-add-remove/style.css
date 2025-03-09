@@ -1,0 +1,12 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid lightblue;
+    margin: 10px;
+}
+
+.active{
+    border: 1px solid purple;
+    background-color: blueviolet;
+}
