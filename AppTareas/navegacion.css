@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.button{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #8896f2;
+    display: grid;
+    place-items: center;
+    border: none;
+    display: block;
+    margin: 40px auto;
+    position: relative;
+    z-index: 100;
+}
+.nav{
+    position: fixed;
+    inset: 0;
+    background-color: #000;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    opacity: 0;
+    pointer-events: none;
+}
+.nav--show{
+    opacity: 1;
+    pointer-events: unset;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: Arial;
+}
