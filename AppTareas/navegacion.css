@@ -25,6 +25,7 @@
     gap: 2rem;
     opacity: 0;
     pointer-events: none;
+    transition: opacity 0.5s;
 }
 .nav--show{
     opacity: 1;
@@ -36,3 +37,32 @@
     font-size: 1.3rem;
     font-family: Arial;
 }
+
+.list{
+    margin: 0 auto;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightslategrey;
+    color: white;
+}
+.element{
+    display: grid;
+    grid-template-rows: max-content 0fr;
+    transition: grid-template-rows 0.5s;
+}
+.element-show{
+    grid-template-rows: max-content 1fr;
+}
+.element-p{
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+.submenu{
+    overflow: hidden;
+    display: grid;
+    gap: 2rem;
+}
+
+/* .rotate{
+    transform: rotate(180deg);
+} */
