@@ -2,6 +2,7 @@ const myForm = document.querySelector("form");
 const error = document.createElement("text");
 error.innerText = "verificar campos vacíos";
 
+// levanta una lista de nodos
 function verifyForm() {
   const items = document.querySelectorAll("input");
 

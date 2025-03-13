@@ -1,3 +1,7 @@
+.campo{
+  border: 2px solid purple;
+}
+
 .error {
   border: 1px solid red;
 }
