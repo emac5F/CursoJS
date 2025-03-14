@@ -11,7 +11,7 @@ body{
     background-color: rebeccapurple;
     padding: 2rem 0;
     width: 90%;
-    margin: 0 auto;
+    margin: 10% auto;
     display: grid;
     grid-template-columns: 50%;
     place-content: center;
